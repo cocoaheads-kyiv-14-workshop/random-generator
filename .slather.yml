@@ -1,0 +1,10 @@
+workspace: Example/RandomGenerator.xcworkspace
+xcodeproj: Example/RandomGenerator.xcodeproj
+scheme: RandomGenerator-Example
+configuration: Debug
+source_directory: RandomGenerator/Classes
+output_directory: slather_output
+binary_basename: RandomGenerator
+ignore:
+  - Example/RandomGenerator/*
+
