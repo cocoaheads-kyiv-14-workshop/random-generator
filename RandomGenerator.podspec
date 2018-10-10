@@ -30,11 +30,11 @@ RandomGenerator module (private pod)
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'RandomGenerator/Classes/**/*'
+  s.source_files = 'RandomGenerator/Classes/**/*.{swift}'
 
-  s.resource_bundles = {
-    'RandomGenerator' => ['RandomGenerator/Classes/**/*.xib', 'RandomGenerator/Assets/*.xcassets']
-  }
+  # s.resource_bundles = {
+  #   'RandomGenerator' => ['RandomGenerator/Classes/**/*.xib', 'RandomGenerator/Assets/*.xcassets']
+  # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

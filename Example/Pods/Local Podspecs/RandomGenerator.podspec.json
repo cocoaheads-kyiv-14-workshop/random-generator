@@ -1,9 +1,9 @@
 {
   "name": "RandomGenerator",
   "version": "0.1.0",
-  "summary": "A short description of RandomGenerator.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/a-voronov/RandomGenerator",
+  "summary": "RandomGenerator module",
+  "description": "RandomGenerator module (private pod)",
+  "homepage": "https://github.com/cocoaheads-kyiv-14-workshop/random-generator",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,12 @@
     "a-voronov": "voronovaleksandr91@gmail.com"
   },
   "source": {
-    "git": "https://github.com/a-voronov/RandomGenerator.git",
+    "git": "https://github.com/cocoaheads-kyiv-14-workshop/random-generator.git",
     "tag": "0.1.0"
   },
+  "social_media_url": "https://twitter.com/aleks_voronov",
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "RandomGenerator/Classes/**/*"
+  "source_files": "RandomGenerator/Classes/**/*.{swift}"
 }
